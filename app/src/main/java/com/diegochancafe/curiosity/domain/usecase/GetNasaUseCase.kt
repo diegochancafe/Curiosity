@@ -1,7 +1,6 @@
 package com.diegochancafe.curiosity.domain.usecase
 
 import com.diegochancafe.curiosity.data.repository.NasaRepository
-import com.diegochancafe.curiosity.domain.model.NasaModelDomain
 import com.diegochancafe.curiosity.domain.model.PhotoDomain
 import javax.inject.Inject
 
