@@ -1,4 +1,4 @@
-package com.diegochancafe.curiosity.ui.theme
+package com.diegochancafe.curiosity.view.theme
 
 import android.app.Activity
 import android.os.Build

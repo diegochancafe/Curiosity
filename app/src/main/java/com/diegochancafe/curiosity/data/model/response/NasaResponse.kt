@@ -3,9 +3,10 @@ package com.diegochancafe.curiosity.data.model.response
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+
 data class NasaResponse(
     val photos: List<PhotoResponse> = emptyList()
-): Serializable
+): java.io.Serializable
 
 data class PhotoResponse(
     val id: Int,

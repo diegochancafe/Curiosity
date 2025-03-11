@@ -1,4 +1,4 @@
-package com.diegochancafe.curiosity.ui.theme
+package com.diegochancafe.curiosity.view.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
