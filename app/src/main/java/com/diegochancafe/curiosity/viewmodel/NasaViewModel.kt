@@ -1,6 +1,5 @@
 package com.diegochancafe.curiosity.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.diegochancafe.curiosity.domain.model.PhotoDomain
@@ -50,7 +49,6 @@ class NasaViewModel @Inject constructor(
                 // --
                 currentPage++
             } catch (e: Exception) {
-                Log.i("TAG", "getPhotos: ${e.localizedMessage}")
                 _errorMessage.value = e.localizedMessage ?: "Error desconocido"
             } finally {
                 _isLoading.value = false
