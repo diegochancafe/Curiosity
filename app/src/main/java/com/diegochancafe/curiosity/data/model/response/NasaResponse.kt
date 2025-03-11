@@ -4,9 +4,9 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 
-data class NasaResponse(
+data class NasaModelResponse(
     val photos: List<PhotoResponse> = emptyList()
-): java.io.Serializable
+): Serializable
 
 data class PhotoResponse(
     val id: Int,

@@ -1,6 +1,6 @@
 package com.diegochancafe.curiosity.domain.model
 
-import com.diegochancafe.curiosity.data.model.response.NasaResponse
+import com.diegochancafe.curiosity.data.model.response.NasaModelResponse
 import com.diegochancafe.curiosity.data.model.response.PhotoResponse
 
 data class NasaModelDomain(
@@ -14,4 +14,4 @@ data class PhotoDomain(
 )
 
 fun PhotoResponse.toDomain() = PhotoDomain(id, sol, imageSrc)
-fun NasaResponse.toDomain() = NasaModelDomain(photos = photos.map { it.toDomain() })
+fun NasaModelResponse.toDomain() = NasaModelDomain(photos = photos.map { it.toDomain() })
